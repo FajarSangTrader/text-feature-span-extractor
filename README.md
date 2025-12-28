@@ -100,7 +100,7 @@ ls artifacts/predictions/  # Contract JSONs here
 
 **What**: PDFs stored by SHA256 hash.   Index maps `doc_id` (external ID) → `sha256` (content hash).
 
-**Why**: Upload the same invoice from three different sources → stored once, no duplicates, no reconciliation hell.  
+**Why**: Upload the same invoice from three different sources → stored once, no duplicates, no reconciliation purgatory.  
 Most systems create three separate records and make YOU figure out they're the same document.
 
 **Output**: `data/ingest/raw/{sha256}.pdf`, `data/ingest/index. parquet`
