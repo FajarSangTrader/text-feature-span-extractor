@@ -85,7 +85,7 @@ invoicex doccano-align --all
 deactivate
 ```
 
-**Note**:  `seed_pdfs/` et al (locations for private data) contains placeholder files.   Add your own PDFs to test. 
+**Note**:  `seed_pdfs/` et al (locations for private data) contains placeholder files. Add your own PDFs to test. 
 
 ---
 
