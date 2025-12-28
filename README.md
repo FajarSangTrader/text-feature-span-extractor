@@ -59,11 +59,33 @@ Dependencies:  pdfplumber, pandas, pyarrow, numpy, xgboost, scipy, typer, python
 ## Installation
 
 ```bash
-pip install -e .        # base install
-pip install -e .[dev]   # with dev tools (pytest, black, isort, mypy, ruff)
+# Core pipeline
+pip install -e . 
+
+# With dev tools (testing, linting)
+pip install -e .[dev]
 ```
 
-**Note**:  `seed_pdfs/` et al (locations for private data) contains placeholder files.  Add your own PDFs to test.  
+**For annotation workflow:**  
+
+Doccano requires `pandas<2.0`, which conflicts with the main pipeline (`pandas>=2.0`).  
+Use a separate virtual environment for annotation tasks:
+
+```bash
+# Create annotation environment
+python -m venv venv-annotation
+source venv-annotation/bin/activate  # On Windows: venv-annotation\Scripts\activate
+pip install -e .[annotation]
+
+# Run annotation commands
+invoicex doccano-import --in export. json
+invoicex doccano-align --all
+
+# Deactivate when done
+deactivate
+```
+
+**Note**:  `seed_pdfs/` et al (locations for private data) contains placeholder files.   Add your own PDFs to test. 
 
 ---
 
