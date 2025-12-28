@@ -262,8 +262,8 @@ seed_pdfs/*.pdf
 
 data/ingest/raw/*.pdf
 
-data/ingest/index. parquet
-data/tokens/*. parquet
+data/ingest/index.parquet
+data/tokens/*.parquet
 data/candidates/*.parquet
 data/predictions/*.json
 data/review/queue.parquet
@@ -272,7 +272,7 @@ data/models/*.json
 data/models/*.pkl
 
 # BUT allow frozen snapshot files (exceptions)
-!data/ingest/index. parquet
+!data/ingest/index.parquet
 !data/tokens/tokens_*.parquet
 !data/candidates/candidates_*.parquet
 !data/predictions/predictions_*.json
