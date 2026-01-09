@@ -1,6 +1,18 @@
 # Text-Layer Feature-Based Span Extractor for Invoices
 
-> This repo is frozen at a pre-training state.   The trained version is private.  
+> This repo is frozen at a pre-training state.   The trained version is private.
+>   **IMPORTANT** treat this like you would a template (ironic, i know), i have essentially amputated core config, schema, and propagation across core functionality; to separate the architecture from the project, I sterilized sensitive info and stubbed these across project specific (eg thresholds, schema, etc) core functionality. Any routing and custom handling has been replaced with a general placeholder if you will (hate that word though). HOWEVER! You would need to modify these regardless to use the system anyway. The core is operable even after gating everything that would propagate for production. 
+
+> But! It is made reusable through generalizing the tailored aspects. 
+and despite that, the system still works as is throughout these main mechanisms:
+> Core pipeline (ingest → tokenize → candidates → decode → emit) is fully functional
+> Deterministic processing with SHA-based content addressing
+> Hungarian assignment decoder with weak-prior fallback
+> XGBoost training infrastructure (requires labeled data)
+> Comprehensive tests for determinism, idempotency, contract integrity
+> Normalization for dates, amounts, and IDs
+
+---
 
 Invoice extraction usually means picking your failure mode:    
 - **Manual entry**:  slow, expensive, doesn't scale  
